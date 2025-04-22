@@ -1,4 +1,3 @@
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import NavbarLayout from './Layout/Navbar/Navbar'
@@ -7,6 +6,7 @@ import Doctors from "./Pages/DoctorsPage/DoctorsPage";
 import Contact from "./Pages/ContactPage/ContactPage"
 import MainBox from './Layout/MainBox/MainBox';
 import NotFoundPage from './NotFound/NotFound';
+import Dashboard from './DashboardPage/DashboardPage'
 
 function App() {
   const routes = createBrowserRouter([
@@ -29,6 +29,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact/>
+        },
+        {
+          path: "/dashboard",
+          element: <Dashboard/>
         },
         {
           path: "*", 

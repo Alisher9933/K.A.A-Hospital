@@ -1,4 +1,3 @@
-import React from 'react';
 import Tish from "../../../public/Icons/Tish.png"
 import Koz from "../../../public/Icons/Ko'z.png"
 import Dori from "../../../public/Icons/Dori.png"

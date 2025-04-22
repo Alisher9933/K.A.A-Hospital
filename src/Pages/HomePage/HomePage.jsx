@@ -1,5 +1,4 @@
 import "./HomePage.css"
-import img1 from "../../../public/img/Doctor.jpg"
 function HomePage() {
   return (
     <div className="home-div">    
