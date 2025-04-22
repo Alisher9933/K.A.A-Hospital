@@ -19,7 +19,7 @@ const SecondPage = () => {
           sifatida emas, inson sifatida qabul qilamiz. Bu yerda sizni iliq
           muhit, e’tiborli shifokorlar va samimiy g‘amxo‘rlik kutmoqda.Tajribali
           jamoamiz har kuni sog‘ligingizni tiklash va yaxshilash uchun jonbozlik
-          bilan ishlaydi. MediPoint’da siz o‘zingizni yolg‘iz his etmaysiz — biz
+          bilan ishlaydi. K.A.A Hospitalda siz o‘zingizni yolg‘iz his etmaysiz — biz
           siz bilan birgamiz, har qadamda.
         </p>
         <div className="DocName">Robert Smith.</div>
@@ -33,7 +33,7 @@ const SecondPage = () => {
         </Link>
         <Link to={"/doctors"}>
         <button className="actionBtn">
-          <h4> Mutaxassislarini Kurish </h4>
+          <h4> Mutaxassislarni Kurish </h4>
         </button>
         </Link>
         <Link to={"/>contact"}>

@@ -21,7 +21,7 @@ const ThirdPage = () => {
           </div>
           <h3 className="department-title">Tish parvarishi</h3>
           <p className="department-description">
-            Tishlarimizni sog‘lom saqlash uchun muntazam tekshiruvlar va professional xizmatlar taqdim etiladi.
+            Tishlaringizni sog‘lom saqlash uchun muntazam tekshiruvlar va professional xizmatlar taqdim etiladi.
           </p>
         </div>
         
@@ -51,7 +51,7 @@ const ThirdPage = () => {
           </div>
           <h3 className="department-title">Kardiologiya</h3>
           <p className="department-description">
-          yurak sog‘ligingizni kuzatib borish va zarur davolanishni ta’minlash uchun professional kardiologik yordam.
+          Yurak sog‘ligingizni kuzatib borish va zarur davolanishni ta’minlash uchun professional kardiologik xizmat ko‘rsatadi.
           </p>
         </div>
       </div>
