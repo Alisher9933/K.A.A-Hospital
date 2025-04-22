@@ -1,0 +1,48 @@
+.notfound-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9fafb;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .notfound-code {
+    font-size: 100px;
+    color: #3b82f6; /* Tailwind blue-500 */
+    margin: 0;
+  }
+  
+  .notfound-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111827; /* Gray-900 */
+    margin-bottom: 10px;
+  }
+  
+  .notfound-description {
+    font-size: 16px;
+    color: #6b7280; /* Gray-500 */
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+  
+  .notfound-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notfound-button:hover {
+    background-color: #2563eb;
+  }
+  

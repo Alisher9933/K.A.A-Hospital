@@ -1,0 +1,110 @@
+.doctors-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .doctors-title {
+    text-align: center;
+    font-size: 32px;
+    color: #3498db;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .doctors-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+  }
+  
+  .doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  
+  .doctor-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-color: #3498db;
+  }
+  
+  .doctor-image-container {
+    width: 310px;
+    height: 370px;
+    overflow: hidden;
+  }
+  
+  .doctor-image1 {
+    width: 310px;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover .doctor-image {
+    transform: scale(1.05);
+  }
+  
+  .doctor-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .doctor-name {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .doctor-specialty {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin: 0;
+  }
+  
+  .doctor-card:hover .doctor-name {
+    color: #3498db;
+  }
+  
+  .doctor-card:hover .doctor-specialty {
+    color: #555;
+  }
+
+  .buttons-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .doctors-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .doctors-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }

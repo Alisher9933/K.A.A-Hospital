@@ -1,0 +1,11 @@
+.main-map{
+display: flex;
+justify-content: center;
+}
+
+.map{
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}

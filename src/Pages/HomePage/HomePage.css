@@ -1,0 +1,51 @@
+.home-div {
+    width: 100%;
+    height: 780px;
+    background-image: url('/img/Doctor.jpg'); 
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+  }
+
+
+
+  .health-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    background-image: url(../../../public/img/Overlay.png);
+  }
+
+  .health-h1{
+    width: 392px;
+    height: 96px;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+  }
+
+  .health-p{
+    width: 424px;
+    height: 75px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .health{
+    width: 550px;
+    height: 350px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    margin: 80px;
+    background-image: url(../../../public/img/Overlay.png);
+  }

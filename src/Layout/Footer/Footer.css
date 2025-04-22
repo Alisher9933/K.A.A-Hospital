@@ -1,0 +1,79 @@
+.footer {
+    display: flex;
+    background-color: #111;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1440px;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    max-width: 250px;
+    margin: 10px;
+  }
+  
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .contact {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon {
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+  }
+  
+  .icon:hover {
+    background-color: #007bff;
+  }
+  
+  .iconImg {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .hoursList {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .closed {
+    color: #007bff;
+  }
+
+  

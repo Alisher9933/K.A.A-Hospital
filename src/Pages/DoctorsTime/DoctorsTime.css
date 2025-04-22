@@ -1,0 +1,50 @@
+.container {
+    background-color: #3762d6;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    background-color: #1e44b2;
+    padding: 10px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: pre-wrap;
+    border-radius: 5px;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: white;
+    color: black;
+  }
+  
